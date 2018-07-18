@@ -1,0 +1,163 @@
+/* ------------ Navbar ------------------ */
+
+.navbar-default {
+	margin-bottom: 0;
+	background-color: #000A0E;
+	border-left: none;
+	border-right: none;
+	border-radius: 0;
+	min-height: 60px;
+}
+
+.container-fluid .navbar-brand {
+	font-family: pacifico, sans-serif;
+	font-size: 3em;
+	margin-top: 3px;
+	color: #3399ff; /* light blue */
+}
+
+.container-fluid .navbar-brand:hover {
+	background-color: #3399ff;
+	color: #fff;
+	height: 60px;
+	margin-top: 0;
+}
+
+.navbar-default .navbar-nav li:hover {
+	background-color: #3399ff; /* light blue */
+}
+
+.navbar-default .navbar-nav li a  {
+	font-family: lato, sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	padding-top: 20px;
+}
+
+.navbar-default .navbar-nav li a:hover {
+	color: #fff;
+}
+
+.nav li {
+	margin-left: 0;
+	font-size: 2em;
+	height: 60px;
+	background-color: #000;
+}
+
+.nav li: hover {
+	background-color: #3399ff; /* light blue */
+}
+
+.hire-us {
+	background-color: #3399ff;
+	padding: 10px 15px;
+	margin-left: 30px;
+	margin-top: 4px;
+}
+
+.hire-us a {
+	font-size: 1.5em;
+	color: #fff;
+}
+
+.hire-us:hover {
+	background-color: #00cc00; /* green */
+}
+
+.navbar-toggle {
+	margin-top: 11px;
+}
+
+/* ------------- Header ---------------------- */
+
+.header-image {
+	background-image: url(../images/monkees.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	min-height: 850px;
+	/*opacity: 0.6;*/
+}
+
+.welcome{
+	position: relative;
+	text-align: center;
+	top: 275px;
+}
+
+.welcome h1 {
+	font-family: pacifico, sans-serif;
+	font-size: 5em;
+	color: #3399ff;
+}
+
+.welcome p {
+	font-family: lato, sans-serif;
+	font-weight: 700;
+	font-size: 2em;
+	text-transform: uppercase;
+	color: #3399ff;
+}
+.container .hire-us {
+	background-color: #3399ff;
+	padding: 20px 50px;
+	margin-top: 20px;
+	border: 2px solid #fff;
+	border-radius: 8%;
+
+}
+
+.container .hire-us a {
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.container .hire-us:hover {
+	background-color: #00cc00; /* green */
+}
+
+/* ------------ Footer ------------------ */
+
+.footer {
+	margin-top: 0;
+	min-height: 60px;
+	background-color: #000;
+	border-top: 1px solid #fff;
+
+}
+
+.footer button {
+	background-color: #3399ff;
+	color: #fff;
+	text-transform: uppercase;
+	margin-top: 8px;
+}
+
+.footer button:hover {
+	background-color: #00cc00;
+	color: #fff;
+}
+
+.footer p {
+	color: #3399ff;
+	font-size: 2em;
+	text-transform: uppercase;
+}
+
+
+.social-links {
+	float: right;
+	margin-top: 10px;
+}
+
+.facebook-icon, .twitter-icon {
+	color: #3399ff;
+}
+
+.facebook-icon:hover, .twitter-icon:hover {
+	color: #00cc00;
+}
+
+.twitter-icon {
+	margin-left: 20px;
+}
