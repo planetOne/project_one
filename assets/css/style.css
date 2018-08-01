@@ -116,6 +116,20 @@
 	background-color: #00cc00; /* green */
 }
 
+/* image gallery */
+
+img {
+	width: 100%;
+	height: 300px;
+	border: 2px #fff solid;
+}
+
+/*.gallery-images {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}*/
+
+
 /* ------------ Footer ------------------ */
 
 .footer {
